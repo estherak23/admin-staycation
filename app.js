@@ -15,7 +15,7 @@ const flash = require('connect-flash');
 
 //import mongoose
 const mongoose =require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/db_staycation', 
+mongoose.connect('mongodb+srv://estherak:estherAK23@cluster0.huvlj.mongodb.net/db-staycation?retryWrites=true&w=majority', 
 {useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
